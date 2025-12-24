@@ -24,9 +24,10 @@ The project covers **data cleaning, exploratory data analysis (EDA), feature eng
 🗂️ Project Structure
 
 Indian_Startup_Funding/
+
 │
 
-  ├── Analysis_file/
+├── Analysis_file/
 │ └── Indian_Startup_Funding.ipynb
 │
 ├── CSV_file/
