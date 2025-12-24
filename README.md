@@ -1,4 +1,4 @@
-##**Indian Startup Funding Analysis 📊**
+## **Indian Startup Funding Analysis 📊**
 
 ![Project Banner](Indian_Startup_Funding.png)
 <!-- Online image link (GitHub renders this automatically) -->
