@@ -1,4 +1,4 @@
-# Indian Startup Funding Analysis 📊
+ Indian Startup Funding Analysis 📊
 
 ![Project Banner](Indian_Startup_Funding.png)
 <!-- Online image link (GitHub renders this automatically) -->
@@ -26,7 +26,7 @@ The project covers **data cleaning, exploratory data analysis (EDA), feature eng
 Indian_Startup_Funding/
 │
 
-├── Analysis_file/
+  ├── Analysis_file/
 │ └── Indian_Startup_Funding.ipynb
 │
 ├── CSV_file/
