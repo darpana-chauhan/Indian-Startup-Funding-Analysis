@@ -22,30 +22,6 @@ The project covers **data cleaning, exploratory data analysis (EDA), feature eng
 ---
 
 ## 🗂️ Project Structure
-# Indian Startup Funding Analysis 📊
-
-![Project Banner](Indian_Startup_Funding.png)
-<!-- Online image link (GitHub renders this automatically) -->
-<!-- https://github.com/darpana-chauhan/Indian-Startup-Funding-Analysis/blob/main/Indian_Startup_Funding.png -->
-
----
-
-## 📌 Project Overview
-This project performs an end-to-end analysis of Indian startup funding data and builds a machine learning model to predict whether a startup is likely to receive **High Value Funding**.  
-The project covers **data cleaning, exploratory data analysis (EDA), feature engineering, model building, evaluation, and deployment using Flask**.
-
----
-
-## 🎯 Objectives
-- Analyze startup funding trends across India
-- Identify top-funded industries and cities
-- Understand funding distribution and outliers
-- Build a predictive machine learning model
-- Deploy predictions through a user-friendly web application
-
----
-
-## 🗂️ Project Structure
 Indian_Startup_Funding/
 │
 ├── Analysis_file/
