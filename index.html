@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Startup Funding Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- LEFT PANEL -->
+    <div class="left">
+        <h2>Startup Details</h2>
+
+        <form method="POST">
+            <label>Funding Amount (USD)</label>
+            <input type="number" step="any" name="amount" placeholder="e.g. 25000" required>
+
+            <label>City Type</label>
+            <select name="top_city" required>
+                <option value="">Select City</option>
+                <option value="1">Top City</option>
+                <option value="0">Other City</option>
+            </select>
+
+            <button type="submit">Predict Funding</button>
+        </form>
+    </div>
+
+    <!-- RIGHT PANEL -->
+    <div class="right">
+        <h2>Prediction Result</h2>
+
+        {% if prediction %}
+            <div class="result-card">
+                {{ prediction }}
+            </div>
+        {% else %}
+            <p class="placeholder">Result will appear here</p>
+        {% endif %}
+
+        {% if img %}
+            <div class="graph-card">
+                <img src="data:image/png;base64,{{ img }}">
+            </div>
+        {% endif %}
+    </div>
+
+</div>
+
+</body>
+</html>
