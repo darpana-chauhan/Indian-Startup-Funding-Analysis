@@ -76,3 +76,15 @@ The Flask web app allows users to:
 ```bash
 pip install flask pandas numpy scikit-learn matplotlib seaborn joblib
 python app.py
+
+---
+
+## 👩‍💻 Author
+
+**Darpana Chauhan**  
+Aspiring Data Scientist | BCA Student  
+GitHub: https://github.com/darpana-chauhan
+
+---
+
+⭐ *If you find this project useful, feel free to star the repository!*
