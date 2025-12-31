@@ -73,9 +73,10 @@ The Flask web app allows users to:
 ---
 
 ## 🚀 How to Run the Project Locally
-```bash
+-```bash
 pip install flask pandas numpy scikit-learn matplotlib seaborn joblib
 python app.py
+- ``` 
 
 ---
 
